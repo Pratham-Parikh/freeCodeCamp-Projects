@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form feel free and provide honest answers</p>
+    <form id="survey-form">
+      <label id="name-label">Enter your name: <input type="text" id="name" placeholder="Your Name" required></label>
+
+<br>
+
+      <label id="email-label">Enter your email: <input type="email" id="email" placeholder="yourname@mail.com" required></label>
+
+<br>
+
+      <label id="number-label">Enter your age: <input type="number" id="number" min="18" max="75" placeholder="18"></label>
+
+<br>
+
+<label>Select your City:
+  <select id="dropdown">
+    <option>Gujarat</option>
+    <option>Vadodra</option>
+    <option>Other</option>
+ </select>
+    </label>
+<br>
+
+<label>Select your fav Food:</label>
+  <br>
+  <label><input type="radio" name="food" value="pizza"> Pizza</label>
+
+<br>
+
+  <label><input type ="radio" name="food" value="apple">Apple</label>
+
+<br>
+
+  <label>Select your Fav Sports Activities:</label>
+
+  <br>
+
+  <label><input type="checkbox" value="football">Football</label>
+
+  <label><input type="checkbox" value="cricket">Cricket</label>
+
+  <label><input type="checkbox" value="badminton">Badminton</label>
+
+  <label><input type="checkbox" value="baseball">Baseball</label>
+
+<br>
+
+
+<label>Additional Comments:<textarea></textarea></label>
+
+<br>
+
+<input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>

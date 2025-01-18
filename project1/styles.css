@@ -1,0 +1,19 @@
+body{
+    background-color:#333131;
+  
+    padding:10px;
+  
+    color:white;
+  }
+  
+  #survey-form{
+    padding:20px;
+  }
+  input,select,textarea,label,p{
+    margin:15px;
+    font-size:1.2rem;
+    font-family:arial,sans-serif;
+  }
+  input[type="submit"]{
+    padding: 10px 25px;
+  }

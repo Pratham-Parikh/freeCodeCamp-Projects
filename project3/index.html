@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Python Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <nav id="navbar">
+      <header id="top-heading">Python Techniocal Documentation</header>
+      <ul>
+        <a href="#Introduction" class="nav-link"><li>Introduction</li></a>
+        <a href="#Variables_and_Datatypes" class="nav-link"><li>Variables and Datatypes</li></a>
+        <a href="#Conditional_Statements" class="nav-link"><li>Conditional Statements</li></a>
+        <a href="#Loops" class="nav-link"><li>Loops</li></a>
+        <a href="#Functions" class="nav-link"><li>Functions</li></a>
+        <a href="#References" class="nav-link"><li>References</li></a>
+      </ul>
+    </nav>
+
+
+
+    <main id="main-doc">
+      
+      <section class="main-section" id="Introduction">
+        <header><h1>Introduction</h1></header>
+        <p>Python is a high-level, interpreted programming language created by Guido van Rossum and first released in 1991. It is known for its simplicity, readability, and versatility, making it ideal for both beginners and experienced developers.</p>
+        <p>
+        <h3>Key Features of Python</h3>
+        <ul>
+          <li>Easy-to-read syntax</li>
+          <li>Extensive standard libraries</li>
+          <li>Support for multiple programming paradigms (procedural, object-oriented, and functional)</li>
+        </ul>
+        <code>
+          <h3>Example:</h3>
+          <pre>
+# Simple Python program
+print("Hello, World!")
+          </pre>
+        </code>
+        </p>
+
+      </section>
+      
+      <section class="main-section" id="Variables_and_Datatypes">
+        <header><h1>Variables and Datatypes</h1></header>
+        <p>In Python, variables do not need explicit declaration. The type of a variable is determined at runtime.</p>
+        <p><h3>Common Data Types:</h3>
+         <ul>
+           <li><b>int:</b> Integer values</li>
+           <li><b>float:</b> Decimal values</li>
+           <li><b>str:</b> Strings (text)</li>
+           <li><b>bool:</b> Boolean values (True/False)</li>
+         </ul>
+        </p>
+        <p><h3>Example:</h3>
+          <code>
+            <pre>
+# Variable examples
+age = 21          # int
+height = 5.9      # float
+name = "Alice"    # str
+is_student = True # bool
+            </pre>
+          </code>
+        </p>
+      </section>
+      
+      <section class="main-section" id="Conditional_Statements">
+        <header><h1>Conditional Statements</h1></header>
+        <p>Python uses if, elif, and else for conditional logic.</p>
+        <p><h3>Example:</h3>
+          <code>
+            <pre>
+# Conditional example
+age = 18
+if age >= 18:
+    print("You are an adult.")
+elif age > 12:
+    print("You are a teenager.")
+else:
+    print("You are a child.")
+            </pre>
+          </code>
+        </p>
+      </section>
+      
+      <section class="main-section" id="Loops">
+        <header><h1>Loops</h1></header>
+        <p>Python supports for and while loops for iteration.</p>
+        <p>
+          <h3>For Loop:</h3>
+          <code>
+            <pre>
+# Iterating over a list
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    print(num)
+            </pre>
+          </code>
+        </p>
+
+        <p>
+          <h3>While Loop:</h3>
+          <code>
+            <pre>
+# Printing numbers until a condition is met
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+            </pre>
+          </code>
+        </p>
+      </section>
+      
+      <section class="main-section" id="Functions">
+        <header><h1>Functions</h1></header>
+        <p>Functions in Python are defined using the def keyword.</p>
+        <p>
+          <h3>Example:</h3>
+          <code>
+            <pre>
+# Function example
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))  # Output: Hello, Alice!
+            </pre>
+          </code>
+        </p>
+        <p>
+          <h3>Lambda Functions</h3>
+          <p>Anonymous functions can be created using the lambda keyword.</p>
+          <code>
+            <pre>
+# Lambda function example
+square = lambda x: x ** 2
+print(square(4))  # Output: 16
+            </pre>
+          </code>
+        </p>
+      </section>
+      
+      <section class="main-section" id="References">
+        <header><h1>References</h1></header>
+        <p>
+          <ol>
+            <li><a href=" https://docs.python.org/3/" class="ref-link">Official Python Documentation</a></li>
+            <li><a href="https://www.python.org/" class="ref-link">Python Software Foundation</a></li>
+            <li><a href="https://www.w3schools.com/python/" class="ref-link">W3Schools Python Tutorial</a></li>
+            <li><a href="https://realpython.com/" class="ref-link">Real Python Tutorials</a></li>
+            <li><a href="https://www.geeksforgeeks.org/python-programming-language/" class="ref-link">GeeksforGeeks Python Guide</a></li>
+          </ol>
+        </p>
+      </section>
+    </main>
+  </body>
+
+</html>

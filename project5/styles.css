@@ -1,12 +1,14 @@
-*{
-  scroll-behavior:smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-body{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  overflow-x:hidden;
+
+html, body {
+  overflow-x: hidden;
 }
+
 
 #navbar{
   background-color:black;
